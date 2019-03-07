@@ -144,10 +144,6 @@ p, body {
     padding: 0px 15px 0px 15px;
 }
 
-section:first-child nav {
-    padding-left: 150px;
-}
-
 .display-none {
     display: none;
 }
@@ -302,9 +298,7 @@ text-decoration: none;
 }
 
 .mordor-map {
-    width: 70%;
-    height: auto;
-    display: block;
+    height: 10%;
     margin-right: auto;
     margin-left: auto;
 }
