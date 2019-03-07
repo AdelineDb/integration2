@@ -41,7 +41,7 @@ body ul:first-child {
 
 .reward {
     position: relative;
-    width: 90%;
+    width: 20%;
     height: auto;
 }
     
@@ -124,19 +124,22 @@ p, body {
 .blackcard {
     background-color: black;
     border-color: black;
-    margin-right: 5%;
+    margin: 2%;
     padding: 0.7%;
 }
 
 .card-align {
     width: 90%;
-    margin-left: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 
 .pills-style {
     background: none !important;
     font-family: "aniron";
     color: grey;
+    text-align: center;
     margin-bottom: 20px;
     padding: 0px 15px 0px 15px;
 }
