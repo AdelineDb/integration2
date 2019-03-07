@@ -1,0 +1,347 @@
+/*************************************************/
+/**********************FONTS*********************/
+/*************************************************/
+
+
+@font-face {
+  font-family: "aniron";
+  src: url("anicb.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "tenwar";
+    src: url("tngan.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "party";
+    src: url("partybusiness.ttf") format("truetype");
+}
+
+.navbar {
+    font-family: "aniron";
+    background-color: #DE7400;    
+}
+
+body ul:first-child {
+    justify-content: center;
+    
+}
+
+.lightbg {
+    background-image: url(bg_light.png);
+    padding: 20px;
+}
+
+.blackbg {
+    background-image: url(bg_dark.png);
+    color: antiquewhite;
+    padding: 20px;
+}
+
+.reward {
+    position: relative;
+    width: 90%;
+    height: auto;
+}
+    
+.imgcar {
+    width: 100%;
+    max-height: 400px;    
+}
+    
+.font-car1 {   
+    font-family: "aniron";
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    padding-bottom: 50px;
+    
+}
+
+.font-car2 {   
+    font-family: "aniron";
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    padding-bottom: 45px;
+    
+}
+
+
+.anav {
+    color: white;
+    font-family: "aniron";
+    font-size: 12px;
+}
+
+.anav:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: "aniron";
+    font-size: 23px;
+    padding: 10px 0px 10px 0px;
+}
+
+h4 {
+    display: flex;
+    font-family: "aniron";
+    color: #DE7400;
+    font-weight: bold;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.black-button {
+    background-color: black;
+    font-family: "aniron";
+    font-size: 25px;
+    padding: 10px 15px 10px 15px;
+    letter-spacing: 2px;
+    justify-content: center;
+    border-style: none;
+}
+
+.small-typo {
+    font-size: 18px;
+}
+
+p, body {
+    font-family: "party";
+    font-size: 20px;
+}
+
+.tenwar {
+    font-family: "tenwar";
+    font-size: 25px;
+    color: #DE7400;
+}
+
+.blackcard {
+    background-color: black;
+    border-color: black;
+    margin-right: 5%;
+    padding: 0.7%;
+}
+
+.card-align {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.pills-style {
+    background: none !important;
+    font-family: "aniron";
+    color: grey;
+    margin-bottom: 20px;
+    padding: 0px 15px 0px 15px;
+}
+
+section:first-child nav {
+    padding-left: 150px;
+}
+
+.display-none {
+    display: none;
+}
+
+.pills-hover:hover .display-none {
+    display: inline-block;
+}
+
+.pills-hover:hover {
+    color: #DE7400;
+    text-decoration: underline; 
+}
+
+
+.font-size-pills {
+    font-size:  20px;
+}
+
+.barre {
+    text-decoration: line-through #DE7400;
+}
+
+.orange 
+{
+    color: coral;
+}
+
+
+.image-opaque {
+    position: relative;
+    max-width: 8,33vh;
+    max-height: auto;
+}
+
+
+
+.text1 {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width: 60%;
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+    border: 0.1em solid;
+    border-color: lightgrey;
+    background-color: rgba(245, 245, 245, 0.7);
+    padding: 1% 5% 1% 5%;
+    border-radius: 0.3em; 
+    opacity: 1
+}
+
+.text4 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 100%;
+    color: black;
+    font-size: 3em;
+    font-family: "party";
+    text-align: center;
+    opacity: 1
+}
+
+.text2 {
+    position: absolute;
+    top: 30%;
+    left : 5%;
+    width: 90%;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+   
+} 
+
+.image-hunters {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.image-opaque:hover {
+    width: 100%;
+    height: auto;
+}
+
+.image-opaque:hover .image-hunters{
+opacity: 1;
+}
+    
+.image-opaque:hover .text1 { 
+display: none;     
+}
+
+.image-opaque:hover .text2 { 
+top: 50%;
+font-size: 1.5em;
+text-decoration: none;
+}
+
+
+.gollum {
+    
+    text-align: center;
+    color: lightgray;
+    font-weight: normal;
+}
+
+.joinus {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    color: #DE7400;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.besthunters {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row2 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card-style {
+    margin: 20px;
+}
+
+.texte-card {
+    color: lightgray;
+    font-size: 1.3em;
+}
+
+.img-mordor {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-sauron {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mordor-map {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*************************************************/
+/**********************FOOTER*********************/
+/*************************************************/
+
+
+.footer-style {
+    background-color: #DE7400;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer ul a {
+    font-family: "party";
+    text-decoration: none;
+    color: white;  
+    font-size: 22px;
+}
+
+footer ul a:hover {
+    color: white;
+}
+
+footer ul:last-child li:first-child {
+    padding-bottom: 0;
+    
+}
+
+footer li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+footer img {
+    width: 180px;
+    height: auto;
+    padding-top: 15px;
+}
